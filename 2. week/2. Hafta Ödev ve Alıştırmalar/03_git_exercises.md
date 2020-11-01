@@ -1,0 +1,1 @@
+1. İkinci hafta alıştırmaları için kullandığınız tüm dosya, script ve notları github'da oluşturacağınız private repo içinde saklayınız.

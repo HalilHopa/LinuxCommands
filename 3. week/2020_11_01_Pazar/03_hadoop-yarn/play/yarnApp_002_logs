@@ -1,0 +1,852 @@
+Container: container_1600195619400_0002_01_000002 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:directory.info
+LogLastModifiedTime:Tue Sep 15 22:00:36 +0300 2020
+LogLength:34366
+LogContents:
+ls -l:
+total 20
+-rw-r--r--. 1 train train   81 Sep 15 22:00 container_tokens
+-rwx------. 1 train train  673 Sep 15 22:00 default_container_executor_session.sh
+-rwx------. 1 train train  728 Sep 15 22:00 default_container_executor.sh
+-rwx------. 1 train train 5428 Sep 15 22:00 launch_container.sh
+lrwxrwxrwx. 1 train train   79 Sep 15 22:00 py4j-0.10.9-src.zip -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/15/py4j-0.10.9-src.zip
+lrwxrwxrwx. 1 train train   71 Sep 15 22:00 pyspark.zip -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/12/pyspark.zip
+lrwxrwxrwx. 1 train train   78 Sep 15 22:00 __spark_conf__ -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/14/__spark_conf__.zip
+lrwxrwxrwx. 1 train train   97 Sep 15 22:00 __spark_libs__ -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/13/__spark_libs__7883486533655575952.zip
+drwx--x---. 2 train train    6 Sep 15 22:00 tmp
+find -L . -maxdepth 5 -ls:
+1706297    4 drwx--x---   3 train    train        4096 Sep 15 22:00 .
+75430726    0 drwx--x---   2 train    train           6 Sep 15 22:00 ./tmp
+1706298    4 -rw-r--r--   1 train    train          81 Sep 15 22:00 ./container_tokens
+1706299    4 -rw-r--r--   1 train    train          12 Sep 15 22:00 ./.container_tokens.crc
+1706300    8 -rwx------   1 train    train        5428 Sep 15 22:00 ./launch_container.sh
+1706301    4 -rw-r--r--   1 train    train          52 Sep 15 22:00 ./.launch_container.sh.crc
+1706302    4 -rwx------   1 train    train         673 Sep 15 22:00 ./default_container_executor_session.sh
+1706303    4 -rw-r--r--   1 train    train          16 Sep 15 22:00 ./.default_container_executor_session.sh.crc
+1706304    4 -rwx------   1 train    train         728 Sep 15 22:00 ./default_container_executor.sh
+1706305    4 -rw-r--r--   1 train    train          16 Sep 15 22:00 ./.default_container_executor.sh.crc
+1705731  712 -r-x------   1 train    train      728482 Sep 15 22:00 ./pyspark.zip
+110786165    0 drwx------   3 train    train         158 Sep 15 22:00 ./__spark_conf__
+110786166    4 -r-x------   1 train    train        2024 Sep 15 22:00 ./__spark_conf__/log4j.properties
+1705734    4 drwx------   2 train    train        4096 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__
+1705735   16 -r-x------   1 train    train       13326 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/log4j.properties
+1705736   16 -r-x------   1 train    train       16048 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-env.sh
+1705737    4 -r-x------   1 train    train        2591 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarnservice-log4j.properties
+1705744    4 -r-x------   1 train    train        1169 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-site.xml
+1705745    4 -r-x------   1 train    train        1657 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-log4j.properties
+1705746    4 -r-x------   1 train    train        3323 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-metrics2.properties
+1705747    4 -r-x------   1 train    train        3999 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-env.cmd
+1705748    4 -r-x------   1 train    train        1551 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarn-site.xml
+1705749    4 -r-x------   1 train    train          10 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/workers
+1705750    4 -r-x------   1 train    train        1213 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/core-site.xml
+1705751    4 -r-x------   1 train    train        1747 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-log4j.properties
+1705752    4 -r-x------   1 train    train        2250 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarn-env.cmd
+1705753   12 -r-x------   1 train    train        8260 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/capacity-scheduler.xml
+1705754    4 -r-x------   1 train    train        3518 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-acls.xml
+1705755    4 -r-x------   1 train    train        1335 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/configuration.xsl
+1705756    8 -r-x------   1 train    train        6056 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarn-env.sh
+1705757    4 -r-x------   1 train    train        1092 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hdfs-site.xml
+1705758    4 -r-x------   1 train    train        1940 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/container-executor.cfg
+1705759    4 -r-x------   1 train    train        1764 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-env.sh
+1706272    4 -r-x------   1 train    train        2642 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/user_ec_policies.xml.template
+1706273    4 -r-x------   1 train    train        2326 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hive-site.xml
+1706274    4 -r-x------   1 train    train        3414 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-user-functions.sh.example
+1706275    4 -r-x------   1 train    train        2316 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/ssl-client.xml.example
+1706276    4 -r-x------   1 train    train        1351 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-env.sh
+1706277   12 -r-x------   1 train    train       11392 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-policy.xml
+1706278    4 -r-x------   1 train    train        1484 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-env.sh
+1706279    4 -r-x------   1 train    train          21 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-signature.secret
+1706280    4 -r-x------   1 train    train         620 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-site.xml
+1706281    4 -r-x------   1 train    train         951 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-env.cmd
+1706282    4 -r-x------   1 train    train        2697 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/ssl-server.xml.example
+1706283    4 -r-x------   1 train    train         682 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-site.xml
+1706284    8 -r-x------   1 train    train        4113 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-queues.xml.template
+110786167  100 -r-x------   1 train    train       98735 Sep 15 22:00 ./__spark_conf__/__spark_hadoop_conf__.xml
+110786168    4 -r-x------   1 train    train         992 Sep 15 22:00 ./__spark_conf__/__spark_conf__.properties
+110786169    4 -r-x------   1 train    train         778 Sep 15 22:00 ./__spark_conf__/__spark_dist_cache__.properties
+39026228   44 -r-x------   1 train    train       41587 Sep 15 22:00 ./py4j-0.10.9-src.zip
+104149281   16 drwx------   2 train    train       12288 Sep 15 22:00 ./__spark_libs__
+104149285   28 -r-x------   1 train    train       27084 Sep 15 22:00 ./__spark_libs__/jackson-xc-1.9.13.jar
+104149286  144 -r-x------   1 train    train      143602 Sep 15 22:00 ./__spark_libs__/commons-digester-1.8.jar
+104149287   80 -r-x------   1 train    train       79912 Sep 15 22:00 ./__spark_libs__/api-util-1.0.0-M20.jar
+104149288   40 -r-x------   1 train    train       38352 Sep 15 22:00 ./__spark_libs__/hive-vector-code-gen-2.3.7.jar
+104149289 3152 -r-x------   1 train    train     3224708 Sep 15 22:00 ./__spark_libs__/derby-10.12.1.1.jar
+104149290  244 -r-x------   1 train    train      246918 Sep 15 22:00 ./__spark_libs__/commons-beanutils-1.9.4.jar
+104149291  324 -r-x------   1 train    train      328347 Sep 15 22:00 ./__spark_libs__/httpcore-4.4.12.jar
+104149292 1992 -r-x------   1 train    train     2039372 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-api-2.7.4.jar
+104149293 5156 -r-x------   1 train    train     5276900 Sep 15 22:00 ./__spark_libs__/scala-library-2.12.10.jar
+104149295  708 -r-x------   1 train    train      723203 Sep 15 22:00 ./__spark_libs__/parquet-format-2.4.0.jar
+104149296  404 -r-x------   1 train    train      410874 Sep 15 22:00 ./__spark_libs__/kryo-shaded-4.0.2.jar
+104149297 1356 -r-x------   1 train    train     1386397 Sep 15 22:00 ./__spark_libs__/xercesImpl-2.12.0.jar
+104149298   64 -r-x------   1 train    train       62050 Sep 15 22:00 ./__spark_libs__/commons-logging-1.1.3.jar
+104149299   88 -r-x------   1 train    train       88732 Sep 15 22:00 ./__spark_libs__/okio-1.15.0.jar
+104149300   72 -r-x------   1 train    train       71626 Sep 15 22:00 ./__spark_libs__/commons-compiler-3.0.16.jar
+104149301  200 -r-x------   1 train    train      201124 Sep 15 22:00 ./__spark_libs__/jdo-api-3.0.1.jar
+104149302   80 -r-x------   1 train    train       79588 Sep 15 22:00 ./__spark_libs__/spire-macros_2.12-0.17.0-M1.jar
+104149303  104 -r-x------   1 train    train      105777 Sep 15 22:00 ./__spark_libs__/arrow-memory-0.15.1.jar
+104149304  228 -r-x------   1 train    train      232470 Sep 15 22:00 ./__spark_libs__/JLargeArrays-1.5.jar
+104149305  100 -r-x------   1 train    train      100636 Sep 15 22:00 ./__spark_libs__/jsp-api-2.1.jar
+104149306   16 -r-x------   1 train    train       12488 Sep 15 22:00 ./__spark_libs__/logging-interceptor-3.12.6.jar
+104149307   96 -r-x------   1 train    train       95806 Sep 15 22:00 ./__spark_libs__/javax.servlet-api-3.1.0.jar
+104149308   20 -r-x------   1 train    train       16537 Sep 15 22:00 ./__spark_libs__/jcl-over-slf4j-1.7.30.jar
+104149309   44 -r-x------   1 train    train       43387 Sep 15 22:00 ./__spark_libs__/hive-cli-2.3.7.jar
+104149310   44 -r-x------   1 train    train       44925 Sep 15 22:00 ./__spark_libs__/apacheds-i18n-2.0.0-M15.jar
+104149311   96 -r-x------   1 train    train       94995 Sep 15 22:00 ./__spark_libs__/parquet-common-1.10.1.jar
+104149312   28 -r-x------   1 train    train       26514 Sep 15 22:00 ./__spark_libs__/stax-api-1.0.1.jar
+104149313   48 -r-x------   1 train    train       46646 Sep 15 22:00 ./__spark_libs__/jackson-dataformat-yaml-2.10.0.jar
+104149314 1144 -r-x------   1 train    train     1168113 Sep 15 22:00 ./__spark_libs__/algebra_2.12-2.0.0-M2.jar
+104149315 9168 -r-x------   1 train    train     9387724 Sep 15 22:00 ./__spark_libs__/spark-catalyst_2.12-3.0.0.jar
+104149316   44 -r-x------   1 train    train       41094 Sep 15 22:00 ./__spark_libs__/hadoop-annotations-2.7.4.jar
+104149317   64 -r-x------   1 train    train       65012 Sep 15 22:00 ./__spark_libs__/guice-servlet-3.0.jar
+104149318  760 -r-x------   1 train    train      775174 Sep 15 22:00 ./__spark_libs__/kubernetes-client-4.9.2.jar
+104149319   36 -r-x------   1 train    train       34601 Sep 15 22:00 ./__spark_libs__/spire-util_2.12-0.17.0-M1.jar
+104149320   44 -r-x------   1 train    train       44399 Sep 15 22:00 ./__spark_libs__/jakarta.activation-api-1.2.1.jar
+104149321  364 -r-x------   1 train    train      369562 Sep 15 22:00 ./__spark_libs__/spark-kubernetes_2.12-3.0.0.jar
+104149322  264 -r-x------   1 train    train      268780 Sep 15 22:00 ./__spark_libs__/jline-2.14.6.jar
+104149323 13504 -r-x------   1 train    train    13826799 Sep 15 22:00 ./__spark_libs__/breeze_2.12-1.0.jar
+104149324   24 -r-x------   1 train    train       23909 Sep 15 22:00 ./__spark_libs__/metrics-jvm-4.1.1.jar
+104149325   16 -r-x------   1 train    train       15935 Sep 15 22:00 ./__spark_libs__/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar
+104149326   36 -r-x------   1 train    train       33786 Sep 15 22:00 ./__spark_libs__/machinist_2.12-0.6.8.jar
+104149327 10424 -r-x------   1 train    train    10672015 Sep 15 22:00 ./__spark_libs__/scala-compiler-2.12.10.jar
+104149328   96 -r-x------   1 train    train       96221 Sep 15 22:00 ./__spark_libs__/commons-pool-1.5.4.jar
+104149329   64 -r-x------   1 train    train       64674 Sep 15 22:00 ./__spark_libs__/arrow-format-0.15.1.jar
+104149330   60 -r-x------   1 train    train       59866 Sep 15 22:00 ./__spark_libs__/spark-kvstore_2.12-3.0.0.jar
+104149331   16 -r-x------   1 train    train       15071 Sep 15 22:00 ./__spark_libs__/jta-1.1.jar
+104149332   28 -r-x------   1 train    train       27156 Sep 15 22:00 ./__spark_libs__/istack-commons-runtime-3.0.8.jar
+104149333   24 -r-x------   1 train    train       22042 Sep 15 22:00 ./__spark_libs__/metrics-graphite-4.1.1.jar
+104149334 8156 -r-x------   1 train    train     8350471 Sep 15 22:00 ./__spark_libs__/hadoop-hdfs-2.7.4.jar
+104149335  576 -r-x------   1 train    train      588337 Sep 15 22:00 ./__spark_libs__/commons-collections-3.2.2.jar
+104149336   20 -r-x------   1 train    train       20437 Sep 15 22:00 ./__spark_libs__/audience-annotations-0.5.0.jar
+104149337   12 -r-x------   1 train    train       12131 Sep 15 22:00 ./__spark_libs__/jpam-1.1.jar
+104149338   28 -r-x------   1 train    train       25058 Sep 15 22:00 ./__spark_libs__/jakarta.annotation-api-1.3.5.jar
+104149339 6952 -r-x------   1 train    train     7118845 Sep 15 22:00 ./__spark_libs__/spark-sql_2.12-3.0.0.jar
+104149340   16 -r-x------   1 train    train       15010 Sep 15 22:00 ./__spark_libs__/xmlenc-0.52.jar
+104149341   20 -r-x------   1 train    train       16560 Sep 15 22:00 ./__spark_libs__/api-asn1-api-1.0.0-M20.jar
+104149342  124 -r-x------   1 train    train      123052 Sep 15 22:00 ./__spark_libs__/py4j-0.10.9.jar
+104149343  760 -r-x------   1 train    train      776862 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-common-2.7.4.jar
+102325044   12 -r-x------   1 train    train        8261 Sep 15 22:00 ./__spark_libs__/spire-platform_2.12-0.17.0-M1.jar
+102325048 1524 -r-x------   1 train    train     1556863 Sep 15 22:00 ./__spark_libs__/avro-1.8.2.jar
+102325524   68 -r-x------   1 train    train       69500 Sep 15 22:00 ./__spark_libs__/curator-client-2.7.1.jar
+102325535  332 -r-x------   1 train    train      336803 Sep 15 22:00 ./__spark_libs__/antlr4-runtime-4.7.1.jar
+102447802    4 -r-x------   1 train    train        2497 Sep 15 22:00 ./__spark_libs__/javax.inject-1.jar
+102447803   84 -r-x------   1 train    train       85815 Sep 15 22:00 ./__spark_libs__/jersey-media-jaxb-2.30.jar
+102447804  496 -r-x------   1 train    train      503880 Sep 15 22:00 ./__spark_libs__/commons-lang3-3.9.jar
+102447805  436 -r-x------   1 train    train      443231 Sep 15 22:00 ./__spark_libs__/univocity-parsers-2.8.3.jar
+102447806  244 -r-x------   1 train    train      249790 Sep 15 22:00 ./__spark_libs__/javax.jdo-3.2.0-m3.jar
+102447807   96 -r-x------   1 train    train       94621 Sep 15 22:00 ./__spark_libs__/hadoop-auth-2.7.4.jar
+102447808  184 -r-x------   1 train    train      185140 Sep 15 22:00 ./__spark_libs__/commons-io-2.4.jar
+102447809   16 -r-x------   1 train    train       15149 Sep 15 22:00 ./__spark_libs__/spark-tags_2.12-3.0.0.jar
+102447810   56 -r-x------   1 train    train       54391 Sep 15 22:00 ./__spark_libs__/objenesis-2.5.1.jar
+102447811   36 -r-x------   1 train    train       34654 Sep 15 22:00 ./__spark_libs__/paranamer-2.8.jar
+102447812 3152 -r-x------   1 train    train     3226851 Sep 15 22:00 ./__spark_libs__/cats-kernel_2.12-2.0.0-M4.jar
+102447815   20 -r-x------   1 train    train       18497 Sep 15 22:00 ./__spark_libs__/flatbuffers-java-1.9.0.jar
+102447816  908 -r-x------   1 train    train      927721 Sep 15 22:00 ./__spark_libs__/jersey-server-2.30.jar
+102447817  176 -r-x------   1 train    train      178149 Sep 15 22:00 ./__spark_libs__/stream-2.9.6.jar
+102447818  360 -r-x------   1 train    train      366748 Sep 15 22:00 ./__spark_libs__/datanucleus-api-jdo-4.2.4.jar
+102447819  188 -r-x------   1 train    train      190432 Sep 15 22:00 ./__spark_libs__/gson-2.2.4.jar
+102447820  216 -r-x------   1 train    train      220536 Sep 15 22:00 ./__spark_libs__/xml-apis-1.4.01.jar
+102447821  676 -r-x------   1 train    train      691479 Sep 15 22:00 ./__spark_libs__/apacheds-kerberos-codec-2.0.0-M15.jar
+102447822   72 -r-x------   1 train    train       72050 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-shuffle-2.7.4.jar
+102447823  116 -r-x------   1 train    train      116311 Sep 15 22:00 ./__spark_libs__/hive-jdbc-2.3.7.jar
+102447824  680 -r-x------   1 train    train      692739 Sep 15 22:00 ./__spark_libs__/spark-hive_2.12-3.0.0.jar
+102447825 10588 -r-x------   1 train    train    10839104 Sep 15 22:00 ./__spark_libs__/hive-exec-2.3.7-core.jar
+102447826 2344 -r-x------   1 train    train     2397699 Sep 15 22:00 ./__spark_libs__/spark-network-common_2.12-3.0.0.jar
+102447827   20 -r-x------   1 train    train       19827 Sep 15 22:00 ./__spark_libs__/opencsv-2.3.jar
+102447828  184 -r-x------   1 train    train      187052 Sep 15 22:00 ./__spark_libs__/avro-mapred-1.8.2-hadoop2.jar
+102447829   36 -r-x------   1 train    train       33031 Sep 15 22:00 ./__spark_libs__/jsr305-3.0.0.jar
+102447830    4 -r-x------   1 train    train        3180 Sep 15 22:00 ./__spark_libs__/macro-compat_2.12-1.1.1.jar
+102447831  292 -r-x------   1 train    train      294928 Sep 15 22:00 ./__spark_libs__/spark-mesos_2.12-3.0.0.jar
+102447832  160 -r-x------   1 train    train      160519 Sep 15 22:00 ./__spark_libs__/commons-dbcp-1.4.jar
+102447833   72 -r-x------   1 train    train       73349 Sep 15 22:00 ./__spark_libs__/jersey-container-servlet-core-2.30.jar
+102447834  796 -r-x------   1 train    train      813783 Sep 15 22:00 ./__spark_libs__/orc-core-1.5.10.jar
+102447835  196 -r-x------   1 train    train      200223 Sep 15 22:00 ./__spark_libs__/hk2-api-2.6.1.jar
+102447836 1024 -r-x------   1 train    train     1048171 Sep 15 22:00 ./__spark_libs__/parquet-jackson-1.10.1.jar
+102447837 7172 -r-x------   1 train    train     7343426 Sep 15 22:00 ./__spark_libs__/mesos-1.4.0-shaded-protobuf.jar
+102447838 1112 -r-x------   1 train    train     1137816 Sep 15 22:00 ./__spark_libs__/spark-streaming_2.12-3.0.0.jar
+102447839   60 -r-x------   1 train    train       58684 Sep 15 22:00 ./__spark_libs__/chill-java-0.9.5.jar
+104593568  176 -r-x------   1 train    train      176285 Sep 15 22:00 ./__spark_libs__/automaton-1.11-8.jar
+104593569  280 -r-x------   1 train    train      284220 Sep 15 22:00 ./__spark_libs__/commons-lang-2.6.jar
+104593570   68 -r-x------   1 train    train       67889 Sep 15 22:00 ./__spark_libs__/jackson-annotations-2.10.0.jar
+104593571  132 -r-x------   1 train    train      131590 Sep 15 22:00 ./__spark_libs__/hk2-utils-2.6.1.jar
+104593572  384 -r-x------   1 train    train      392124 Sep 15 22:00 ./__spark_libs__/velocity-1.5.jar
+104593573 1444 -r-x------   1 train    train     1475955 Sep 15 22:00 ./__spark_libs__/htrace-core-3.1.0-incubating.jar
+104593574    8 -r-x------   1 train    train        4592 Sep 15 22:00 ./__spark_libs__/jul-to-slf4j-1.7.30.jar
+104593575 1152 -r-x------   1 train    train     1175798 Sep 15 22:00 ./__spark_libs__/JTransforms-3.1.jar
+104593576   84 -r-x------   1 train    train       83632 Sep 15 22:00 ./__spark_libs__/json4s-ast_2.12-3.6.6.jar
+104593577  240 -r-x------   1 train    train      244502 Sep 15 22:00 ./__spark_libs__/jersey-client-2.30.jar
+104593578  752 -r-x------   1 train    train      767140 Sep 15 22:00 ./__spark_libs__/httpclient-4.5.6.jar
+104593579 2032 -r-x------   1 train    train     2079585 Sep 15 22:00 ./__spark_libs__/spark-hive-thriftserver_2.12-3.0.0.jar
+104593580   20 -r-x------   1 train    train       18891 Sep 15 22:00 ./__spark_libs__/jetty-sslengine-6.1.26.jar
+104593581  424 -r-x------   1 train    train      430744 Sep 15 22:00 ./__spark_libs__/spark-graphx_2.12-3.0.0.jar
+104593582  324 -r-x------   1 train    train      330670 Sep 15 22:00 ./__spark_libs__/spark-yarn_2.12-3.0.0.jar
+104593583 7020 -r-x------   1 train    train     7188024 Sep 15 22:00 ./__spark_libs__/spire_2.12-0.17.0-M1.jar
+104593584   76 -r-x------   1 train    train       76733 Sep 15 22:00 ./__spark_libs__/jersey-hk2-2.30.jar
+104593585 1988 -r-x------   1 train    train     2035066 Sep 15 22:00 ./__spark_libs__/commons-math3-3.4.1.jar
+104593586  276 -r-x------   1 train    train      281356 Sep 15 22:00 ./__spark_libs__/xbean-asm7-shaded-4.15.jar
+104593587   92 -r-x------   1 train    train       91930 Sep 15 22:00 ./__spark_libs__/jakarta.validation-api-2.0.2.jar
+104593588  832 -r-x------   1 train    train      848750 Sep 15 22:00 ./__spark_libs__/parquet-encoding-1.10.1.jar
+104593589   12 -r-x------   1 train    train       12211 Sep 15 22:00 ./__spark_libs__/slf4j-log4j12-1.7.30.jar
+104593590  532 -r-x------   1 train    train      543852 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-app-2.7.4.jar
+104593591 5748 -r-x------   1 train    train     5885296 Sep 15 22:00 ./__spark_libs__/spark-mllib_2.12-3.0.0.jar
+104593592 4112 -r-x------   1 train    train     4210625 Sep 15 22:00 ./__spark_libs__/zstd-jni-1.4.4-3.jar
+104593593   44 -r-x------   1 train    train       41472 Sep 15 22:00 ./__spark_libs__/slf4j-api-1.7.30.jar
+104593594  360 -r-x------   1 train    train      365552 Sep 15 22:00 ./__spark_libs__/commons-compress-1.8.1.jar
+104593595   52 -r-x------   1 train    train       52512 Sep 15 22:00 ./__spark_libs__/spark-repl_2.12-3.0.0.jar
+104593596   56 -r-x------   1 train    train       54116 Sep 15 22:00 ./__spark_libs__/hive-shims-0.23-2.3.7.jar
+104593597 2140 -r-x------   1 train    train     2189117 Sep 15 22:00 ./__spark_libs__/guava-14.0.1.jar
+104593598   24 -r-x------   1 train    train       23346 Sep 15 22:00 ./__spark_libs__/stax-api-1.0-2.jar
+104593599   36 -r-x------   1 train    train       35518 Sep 15 22:00 ./__spark_libs__/zjsonpatch-0.3.0.jar
+104593600  232 -r-x------   1 train    train      234942 Sep 15 22:00 ./__spark_libs__/hive-storage-api-2.7.1.jar
+104593601 3168 -r-x------   1 train    train     3243337 Sep 15 22:00 ./__spark_libs__/shapeless_2.12-2.3.3.jar
+104593602    4 -r-x------   1 train    train        3954 Sep 15 22:00 ./__spark_libs__/kubernetes-model-common-4.9.2.jar
+104593603   64 -r-x------   1 train    train       65261 Sep 15 22:00 ./__spark_libs__/oro-2.0.8.jar
+104593604  164 -r-x------   1 train    train      166121 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-client-2.7.4.jar
+104593605  308 -r-x------   1 train    train      313702 Sep 15 22:00 ./__spark_libs__/libfb303-0.9.3.jar
+104593606  164 -r-x------   1 train    train      164422 Sep 15 22:00 ./__spark_libs__/core-1.1.2.jar
+104593607   32 -r-x------   1 train    train       32091 Sep 15 22:00 ./__spark_libs__/jersey-container-servlet-2.30.jar
+104593608 1864 -r-x------   1 train    train     1908681 Sep 15 22:00 ./__spark_libs__/datanucleus-rdbms-4.1.19.jar
+104593609   92 -r-x------   1 train    train       93210 Sep 15 22:00 ./__spark_libs__/super-csv-2.2.0.jar
+104593610   80 -r-x------   1 train    train       79845 Sep 15 22:00 ./__spark_libs__/compress-lzf-1.0.3.jar
+104593611  132 -r-x------   1 train    train      134595 Sep 15 22:00 ./__spark_libs__/commons-crypto-1.0.0.jar
+104593612   44 -r-x------   1 train    train       43740 Sep 15 22:00 ./__spark_libs__/jackson-module-paranamer-2.10.0.jar
+104593613    8 -r-x------   1 train    train        4467 Sep 15 22:00 ./__spark_libs__/aopalliance-1.0.jar
+104593614   20 -r-x------   1 train    train       19479 Sep 15 22:00 ./__spark_libs__/osgi-resource-locator-1.0.3.jar
+104593615   52 -r-x------   1 train    train       51181 Sep 15 22:00 ./__spark_libs__/spark-unsafe_2.12-3.0.0.jar
+104593616  336 -r-x------   1 train    train      341862 Sep 15 22:00 ./__spark_libs__/jackson-module-scala_2.12-2.10.0.jar
+104593617   12 -r-x------   1 train    train        8785 Sep 15 22:00 ./__spark_libs__/hive-shims-2.3.7.jar
+104593618  380 -r-x------   1 train    train      388572 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-server-common-2.7.4.jar
+104593619   28 -r-x------   1 train    train       25475 Sep 15 22:00 ./__spark_libs__/json-1.8.jar
+104593620  164 -r-x------   1 train    train      167761 Sep 15 22:00 ./__spark_libs__/antlr-runtime-3.5.2.jar
+104593621  232 -r-x------   1 train    train      233745 Sep 15 22:00 ./__spark_libs__/threeten-extra-1.5.0.jar
+104593622  528 -r-x------   1 train    train      539912 Sep 15 22:00 ./__spark_libs__/jetty-6.1.26.jar
+104593623   36 -r-x------   1 train    train       34991 Sep 15 22:00 ./__spark_libs__/jackson-module-jaxb-annotations-2.10.0.jar
+104593624 1140 -r-x------   1 train    train     1166647 Sep 15 22:00 ./__spark_libs__/jersey-common-2.30.jar
+104593625  132 -r-x------   1 train    train      134044 Sep 15 22:00 ./__spark_libs__/aircompressor-0.10.jar
+104593626  636 -r-x------   1 train    train      649950 Sep 15 22:00 ./__spark_libs__/lz4-java-1.7.1.jar
+104593627   28 -r-x------   1 train    train       26243 Sep 15 22:00 ./__spark_libs__/hadoop-client-2.7.4.jar
+104593628   68 -r-x------   1 train    train       69409 Sep 15 22:00 ./__spark_libs__/activation-1.1.1.jar
+104593629    4 -r-x------   1 train    train        4028 Sep 15 22:00 ./__spark_libs__/shims-0.7.45.jar
+104593630  244 -r-x------   1 train    train      246445 Sep 15 22:00 ./__spark_libs__/libthrift-0.12.0.jar
+104593631   48 -r-x------   1 train    train       48122 Sep 15 22:00 ./__spark_libs__/orc-mapreduce-1.5.10.jar
+110786080  136 -r-x------   1 train    train      136363 Sep 15 22:00 ./__spark_libs__/HikariCP-2.5.1.jar
+110786081   16 -r-x------   1 train    train       14395 Sep 15 22:00 ./__spark_libs__/generex-1.0.2.jar
+110786082  416 -r-x------   1 train    train      423175 Sep 15 22:00 ./__spark_libs__/okhttp-3.12.6.jar
+110786083 1892 -r-x------   1 train    train     1934320 Sep 15 22:00 ./__spark_libs__/snappy-java-1.1.7.5.jar
+110786084  132 -r-x------   1 train    train      134696 Sep 15 22:00 ./__spark_libs__/breeze-macros_2.12-1.0.jar
+110786085 1024 -r-x------   1 train    train     1045744 Sep 15 22:00 ./__spark_libs__/leveldbjni-all-1.8.jar
+110786086  992 -r-x------   1 train    train     1013367 Sep 15 22:00 ./__spark_libs__/jaxb-runtime-2.3.2.jar
+110786087  300 -r-x------   1 train    train      305001 Sep 15 22:00 ./__spark_libs__/commons-httpclient-3.1.jar
+110786088  228 -r-x------   1 train    train      232248 Sep 15 22:00 ./__spark_libs__/jackson-core-asl-1.9.13.jar
+110786089  544 -r-x------   1 train    train      556575 Sep 15 22:00 ./__spark_libs__/scala-xml_2.12-1.2.0.jar
+110786090  200 -r-x------   1 train    train      203358 Sep 15 22:00 ./__spark_libs__/hk2-locator-2.6.1.jar
+110786091 3420 -r-x------   1 train    train     3499224 Sep 15 22:00 ./__spark_libs__/hadoop-common-2.7.4.jar
+110786092  268 -r-x------   1 train    train      270342 Sep 15 22:00 ./__spark_libs__/curator-recipes-2.7.1.jar
+110786093  764 -r-x------   1 train    train      780664 Sep 15 22:00 ./__spark_libs__/jackson-mapper-asl-1.9.13.jar
+110786094  428 -r-x------   1 train    train      436980 Sep 15 22:00 ./__spark_libs__/hive-common-2.3.7.jar
+110786095  100 -r-x------   1 train    train       99555 Sep 15 22:00 ./__spark_libs__/xz-1.5.jar
+110786096  232 -r-x------   1 train    train      236660 Sep 15 22:00 ./__spark_libs__/ST4-4.0.4.jar
+110786097   16 -r-x------   1 train    train       12984 Sep 15 22:00 ./__spark_libs__/hive-shims-scheduler-2.3.7.jar
+110786098  280 -r-x------   1 train    train      285732 Sep 15 22:00 ./__spark_libs__/parquet-hadoop-1.10.1.jar
+110786099  208 -r-x------   1 train    train      211523 Sep 15 22:00 ./__spark_libs__/chill_2.12-0.9.5.jar
+110786100  292 -r-x------   1 train    train      298829 Sep 15 22:00 ./__spark_libs__/commons-configuration-1.6.jar
+110786101 1372 -r-x------   1 train    train     1400944 Sep 15 22:00 ./__spark_libs__/jackson-databind-2.10.0.jar
+110786102 3596 -r-x------   1 train    train     3678534 Sep 15 22:00 ./__spark_libs__/scala-reflect-2.12.10.jar
+110786103  628 -r-x------   1 train    train      643043 Sep 15 22:00 ./__spark_libs__/joda-time-2.10.5.jar
+110786104   88 -r-x------   1 train    train       87027 Sep 15 22:00 ./__spark_libs__/spark-network-shuffle_2.12-3.0.0.jar
+110786105    8 -r-x------   1 train    train        5711 Sep 15 22:00 ./__spark_libs__/minlog-1.3.0.jar
+110786106  140 -r-x------   1 train    train      140376 Sep 15 22:00 ./__spark_libs__/jakarta.ws.rs-api-2.1.6.jar
+110786107   28 -r-x------   1 train    train       27749 Sep 15 22:00 ./__spark_libs__/orc-shims-1.5.10.jar
+110786108   28 -r-x------   1 train    train       27006 Sep 15 22:00 ./__spark_libs__/aopalliance-repackaged-2.6.1.jar
+110786109  112 -r-x------   1 train    train      110600 Sep 15 22:00 ./__spark_libs__/bonecp-0.8.0.RELEASE.jar
+110786110  420 -r-x------   1 train    train      427780 Sep 15 22:00 ./__spark_libs__/jodd-core-3.5.2.jar
+110786111   60 -r-x------   1 train    train       58699 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-server-web-proxy-2.7.4.jar
+110786112  344 -r-x------   1 train    train      348635 Sep 15 22:00 ./__spark_libs__/jackson-core-2.10.0.jar
+110786113  524 -r-x------   1 train    train      533455 Sep 15 22:00 ./__spark_libs__/protobuf-java-2.5.0.jar
+110786114  268 -r-x------   1 train    train      273370 Sep 15 22:00 ./__spark_libs__/commons-net-3.1.jar
+110786115   64 -r-x------   1 train    train       62960 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-jobclient-2.7.4.jar
+110786116 1972 -r-x------   1 train    train     2016766 Sep 15 22:00 ./__spark_libs__/datanucleus-core-4.1.17.jar
+110786117   20 -r-x------   1 train    train       18336 Sep 15 22:00 ./__spark_libs__/jackson-jaxrs-1.9.13.jar
+110786118  908 -r-x------   1 train    train      926574 Sep 15 22:00 ./__spark_libs__/janino-3.0.16.jar
+110786119   32 -r-x------   1 train    train       30347 Sep 15 22:00 ./__spark_libs__/spark-sketch_2.12-3.0.0.jar
+110786120  120 -r-x------   1 train    train      120305 Sep 15 22:00 ./__spark_libs__/hive-shims-common-2.3.7.jar
+110786121  388 -r-x------   1 train    train      395195 Sep 15 22:00 ./__spark_libs__/javolution-5.5.1.jar
+110786122   16 -r-x------   1 train    train       15071 Sep 15 22:00 ./__spark_libs__/transaction-api-1.1.jar
+110786123  104 -r-x------   1 train    train      105898 Sep 15 22:00 ./__spark_libs__/jackson-datatype-jsr310-2.10.3.jar
+110786124  112 -r-x------   1 train    train      111914 Sep 15 22:00 ./__spark_libs__/spark-mllib-local_2.12-3.0.0.jar
+110786125  104 -r-x------   1 train    train      105134 Sep 15 22:00 ./__spark_libs__/jaxb-api-2.2.2.jar
+110786126   44 -r-x------   1 train    train       41123 Sep 15 22:00 ./__spark_libs__/commons-cli-1.2.jar
+110786127   20 -r-x------   1 train    train       18140 Sep 15 22:00 ./__spark_libs__/jakarta.inject-2.6.1.jar
+110786128   24 -r-x------   1 train    train       20889 Sep 15 22:00 ./__spark_libs__/metrics-jmx-4.1.1.jar
+110786129 1404 -r-x------   1 train    train     1437215 Sep 15 22:00 ./__spark_libs__/arrow-vector-0.15.1.jar
+110786130  116 -r-x------   1 train    train      115498 Sep 15 22:00 ./__spark_libs__/jakarta.xml.bind-api-2.3.2.jar
+110786131  280 -r-x------   1 train    train      284184 Sep 15 22:00 ./__spark_libs__/commons-codec-1.10.jar
+110786132 1644 -r-x------   1 train    train     1679789 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-common-2.7.4.jar
+110786133  184 -r-x------   1 train    train      186273 Sep 15 22:00 ./__spark_libs__/curator-framework-2.7.1.jar
+110786134 1168 -r-x------   1 train    train     1194003 Sep 15 22:00 ./__spark_libs__/arpack_combined_all-0.1.jar
+110786135 8004 -r-x------   1 train    train     8194428 Sep 15 22:00 ./__spark_libs__/hive-metastore-2.3.7.jar
+110786136  180 -r-x------   1 train    train      183472 Sep 15 22:00 ./__spark_libs__/hive-beeline-2.3.7.jar
+110786137  104 -r-x------   1 train    train      105365 Sep 15 22:00 ./__spark_libs__/metrics-core-4.1.1.jar
+110786138  320 -r-x------   1 train    train      326419 Sep 15 22:00 ./__spark_libs__/hive-llap-common-2.3.7.jar
+110786139 4056 -r-x------   1 train    train     4153218 Sep 15 22:00 ./__spark_libs__/netty-all-4.1.47.Final.jar
+110786140  764 -r-x------   1 train    train      780265 Sep 15 22:00 ./__spark_libs__/javassist-3.25.0-GA.jar
+110786141  112 -r-x------   1 train    train      112235 Sep 15 22:00 ./__spark_libs__/scala-collection-compat_2.12-2.1.1.jar
+110786142 1076 -r-x------   1 train    train     1097799 Sep 15 22:00 ./__spark_libs__/parquet-column-1.10.1.jar
+110786143  176 -r-x------   1 train    train      177131 Sep 15 22:00 ./__spark_libs__/jetty-util-6.1.26.jar
+110786144 11632 -r-x------   1 train    train    11908731 Sep 15 22:00 ./__spark_libs__/kubernetes-model-4.9.2.jar
+110786145  132 -r-x------   1 train    train      132989 Sep 15 22:00 ./__spark_libs__/avro-ipc-1.8.2.jar
+110786146 9932 -r-x------   1 train    train    10167565 Sep 15 22:00 ./__spark_libs__/spark-core_2.12-3.0.0.jar
+110786147  696 -r-x------   1 train    train      710492 Sep 15 22:00 ./__spark_libs__/guice-3.0.jar
+110786148  196 -r-x------   1 train    train      197176 Sep 15 22:00 ./__spark_libs__/commons-text-1.6.jar
+110786149  344 -r-x------   1 train    train      349025 Sep 15 22:00 ./__spark_libs__/json4s-scalap_2.12-3.6.6.jar
+110786150   20 -r-x------   1 train    train       16642 Sep 15 22:00 ./__spark_libs__/metrics-json-4.1.1.jar
+110786151  296 -r-x------   1 train    train      302558 Sep 15 22:00 ./__spark_libs__/snakeyaml-1.24.jar
+110786152   36 -r-x------   1 train    train       36175 Sep 15 22:00 ./__spark_libs__/json4s-jackson_2.12-3.6.6.jar
+110786153 1256 -r-x------   1 train    train     1282424 Sep 15 22:00 ./__spark_libs__/ivy-2.4.0.jar
+110786154 1524 -r-x------   1 train    train     1558288 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-core-2.7.4.jar
+110786155  472 -r-x------   1 train    train      482486 Sep 15 22:00 ./__spark_libs__/json4s-core_2.12-3.6.6.jar
+110786156   12 -r-x------   1 train    train        9478 Sep 15 22:00 ./__spark_libs__/spark-tags_2.12-3.0.0-tests.jar
+110786157  100 -r-x------   1 train    train      100431 Sep 15 22:00 ./__spark_libs__/pyrolite-4.30.jar
+110786158   76 -r-x------   1 train    train       75930 Sep 15 22:00 ./__spark_libs__/spark-launcher_2.12-3.0.0.jar
+110786159  480 -r-x------   1 train    train      489884 Sep 15 22:00 ./__spark_libs__/log4j-1.2.17.jar
+110786160  896 -r-x------   1 train    train      916206 Sep 15 22:00 ./__spark_libs__/hive-serde-2.3.7.jar
+110786161  220 -r-x------   1 train    train      222980 Sep 15 22:00 ./__spark_libs__/scala-parser-combinators_2.12-1.1.2.jar
+110786162  320 -r-x------   1 train    train      325335 Sep 15 22:00 ./__spark_libs__/RoaringBitmap-0.7.45.jar
+110786163  892 -r-x------   1 train    train      911603 Sep 15 22:00 ./__spark_libs__/zookeeper-3.4.14.jar
+110786164  912 -r-x------   1 train    train      932808 Sep 15 22:00 ./__spark_libs__/postgresql-42.2.14.jar
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
+End of LogType:directory.info.This log file belongs to a running container (container_1600195619400_0002_01_000002) and so may not be complete.
+*******************************************************************************
+
+
+End of LogType:prelaunch.err.This log file belongs to a running container (container_1600195619400_0002_01_000002) and so may not be complete.
+******************************************************************************
+
+
+End of LogType:stdout.This log file belongs to a running container (container_1600195619400_0002_01_000002) and so may not be complete.
+***********************************************************************
+
+
+Container: container_1600195619400_0002_01_000002 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:stderr
+LogLastModifiedTime:Tue Sep 15 22:00:39 +0300 2020
+LogLength:551
+LogContents:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/13/__spark_libs__7883486533655575952.zip/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/manual/hadoop-3.1.2/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+End of LogType:stderr.This log file belongs to a running container (container_1600195619400_0002_01_000002) and so may not be complete.
+***********************************************************************
+
+
+Container: container_1600195619400_0002_01_000002 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:prelaunch.out
+LogLastModifiedTime:Tue Sep 15 22:00:36 +0300 2020
+LogLength:100
+LogContents:
+Setting up env variables
+Setting up job resources
+Copying debugging information
+Launching container
+End of LogType:prelaunch.out.This log file belongs to a running container (container_1600195619400_0002_01_000002) and so may not be complete.
+******************************************************************************
+
+
+Container: container_1600195619400_0002_01_000002 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:launch_container.sh
+LogLastModifiedTime:Tue Sep 15 22:00:36 +0300 2020
+LogLength:5428
+LogContents:
+#!/bin/bash
+
+set -o pipefail -e
+export PRELAUNCH_OUT="/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/prelaunch.out"
+exec >"${PRELAUNCH_OUT}"
+export PRELAUNCH_ERR="/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/prelaunch.err"
+exec 2>"${PRELAUNCH_ERR}"
+echo "Setting up env variables"
+export JAVA_HOME=${JAVA_HOME:-"/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-0.el7_8.x86_64/jre/"}
+export HADOOP_COMMON_HOME=${HADOOP_COMMON_HOME:-"/opt/manual/hadoop/"}
+export HADOOP_HDFS_HOME=${HADOOP_HDFS_HOME:-"/opt/manual/hadoop/"}
+export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/opt/manual/hadoop//etc/hadoop"}
+export HADOOP_YARN_HOME=${HADOOP_YARN_HOME:-"/opt/manual/hadoop/"}
+export HADOOP_HOME=${HADOOP_HOME:-"/opt/manual/hadoop/"}
+export PATH=${PATH:-"/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/train/.local/bin:/home/train/bin:$JAVA_HOME/bin:$KAFKA_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$HIVE_HOME/bin:$SQOOP_HOME/bin:$SPARK_HOME/bin:$MAVEN_HOME/bin:$INTELLIJ_HOME/bin:$PYCHARM_HOME/bin"}
+export LANG=${LANG:-"en_US.UTF-8"}
+export HADOOP_TOKEN_FILE_LOCATION="/tmp/hadoop-train/nm-local-dir/usercache/train/appcache/application_1600195619400_0002/container_1600195619400_0002_01_000002/container_tokens"
+export CONTAINER_ID="container_1600195619400_0002_01_000002"
+export NM_PORT="44803"
+export NM_HOST="localhost"
+export NM_HTTP_PORT="8042"
+export LOCAL_DIRS="/tmp/hadoop-train/nm-local-dir/usercache/train/appcache/application_1600195619400_0002"
+export LOCAL_USER_DIRS="/tmp/hadoop-train/nm-local-dir/usercache/train/"
+export LOG_DIRS="/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002"
+export USER="train"
+export LOGNAME="train"
+export HOME="/home/"
+export PWD="/tmp/hadoop-train/nm-local-dir/usercache/train/appcache/application_1600195619400_0002/container_1600195619400_0002_01_000002"
+export JVM_PID="$$"
+export MALLOC_ARENA_MAX="4"
+export NM_AUX_SERVICE_mapreduce_shuffle="AAA0+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+export SPARK_YARN_STAGING_DIR="hdfs://localhost:9000/user/train/.sparkStaging/application_1600195619400_0002"
+export PYTHONPATH="/opt/manual/spark//python/lib/py4j-0.10.9-src.zip:/opt/manual/spark//python/::$PWD/pyspark.zip:$PWD/py4j-0.10.9-src.zip"
+export CLASSPATH="$PWD:$PWD/__spark_conf__:$PWD/__spark_libs__/*:$HADOOP_CONF_DIR:$HADOOP_COMMON_HOME/share/hadoop/common/*:$HADOOP_COMMON_HOME/share/hadoop/common/lib/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/lib/*:$HADOOP_YARN_HOME/share/hadoop/yarn/*:$HADOOP_YARN_HOME/share/hadoop/yarn/lib/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*:$PWD/__spark_conf__/__hadoop_conf__"
+export SPARK_USER="train"
+echo "Setting up job resources"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/12/pyspark.zip" "pyspark.zip"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/14/__spark_conf__.zip" "__spark_conf__"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/15/py4j-0.10.9-src.zip" "py4j-0.10.9-src.zip"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/13/__spark_libs__7883486533655575952.zip" "__spark_libs__"
+echo "Copying debugging information"
+# Creating copy of launch script
+cp "launch_container.sh" "/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/launch_container.sh"
+chmod 640 "/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/launch_container.sh"
+# Determining directory contents
+echo "ls -l:" 1>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/directory.info"
+ls -l 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/directory.info"
+echo "find -L . -maxdepth 5 -ls:" 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/directory.info"
+find -L . -maxdepth 5 -ls 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/directory.info"
+echo "broken symlinks(find -L . -maxdepth 5 -type l -ls):" 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/directory.info"
+find -L . -maxdepth 5 -type l -ls 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/directory.info"
+echo "Launching container"
+exec /bin/bash -c "$JAVA_HOME/bin/java -server -Xmx1024m -Djava.io.tmpdir=$PWD/tmp '-Dspark.driver.port=33073' -Dspark.yarn.app.container.log.dir=/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002 -XX:OnOutOfMemoryError='kill %p' org.apache.spark.executor.YarnCoarseGrainedExecutorBackend --driver-url spark://CoarseGrainedScheduler@10.0.2.15:33073 --executor-id 1 --hostname localhost --cores 1 --app-id application_1600195619400_0002 --resourceProfileId 0 --user-class-path file:$PWD/__app__.jar 1>/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/stdout 2>/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000002/stderr"
+End of LogType:launch_container.sh.This log file belongs to a running container (container_1600195619400_0002_01_000002) and so may not be complete.
+************************************************************************************
+
+
+Container: container_1600195619400_0002_01_000001 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:directory.info
+LogLastModifiedTime:Tue Sep 15 22:00:26 +0300 2020
+LogLength:34366
+LogContents:
+ls -l:
+total 20
+-rw-r--r--. 1 train train   69 Sep 15 22:00 container_tokens
+-rwx------. 1 train train  673 Sep 15 22:00 default_container_executor_session.sh
+-rwx------. 1 train train  728 Sep 15 22:00 default_container_executor.sh
+-rwx------. 1 train train 5421 Sep 15 22:00 launch_container.sh
+lrwxrwxrwx. 1 train train   79 Sep 15 22:00 py4j-0.10.9-src.zip -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/15/py4j-0.10.9-src.zip
+lrwxrwxrwx. 1 train train   71 Sep 15 22:00 pyspark.zip -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/12/pyspark.zip
+lrwxrwxrwx. 1 train train   78 Sep 15 22:00 __spark_conf__ -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/14/__spark_conf__.zip
+lrwxrwxrwx. 1 train train   97 Sep 15 22:00 __spark_libs__ -> /tmp/hadoop-train/nm-local-dir/usercache/train/filecache/13/__spark_libs__7883486533655575952.zip
+drwx--x---. 2 train train    6 Sep 15 22:00 tmp
+find -L . -maxdepth 5 -ls:
+1705733    4 drwx--x---   3 train    train        4096 Sep 15 22:00 .
+75430725    0 drwx--x---   2 train    train           6 Sep 15 22:00 ./tmp
+1706285    4 -rw-r--r--   1 train    train          69 Sep 15 22:00 ./container_tokens
+1706286    4 -rw-r--r--   1 train    train          12 Sep 15 22:00 ./.container_tokens.crc
+1706287    8 -rwx------   1 train    train        5421 Sep 15 22:00 ./launch_container.sh
+1706288    4 -rw-r--r--   1 train    train          52 Sep 15 22:00 ./.launch_container.sh.crc
+1706289    4 -rwx------   1 train    train         673 Sep 15 22:00 ./default_container_executor_session.sh
+1706290    4 -rw-r--r--   1 train    train          16 Sep 15 22:00 ./.default_container_executor_session.sh.crc
+1706291    4 -rwx------   1 train    train         728 Sep 15 22:00 ./default_container_executor.sh
+1706292    4 -rw-r--r--   1 train    train          16 Sep 15 22:00 ./.default_container_executor.sh.crc
+1705731  712 -r-x------   1 train    train      728482 Sep 15 22:00 ./pyspark.zip
+110786165    0 drwx------   3 train    train         158 Sep 15 22:00 ./__spark_conf__
+110786166    4 -r-x------   1 train    train        2024 Sep 15 22:00 ./__spark_conf__/log4j.properties
+1705734    4 drwx------   2 train    train        4096 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__
+1705735   16 -r-x------   1 train    train       13326 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/log4j.properties
+1705736   16 -r-x------   1 train    train       16048 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-env.sh
+1705737    4 -r-x------   1 train    train        2591 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarnservice-log4j.properties
+1705744    4 -r-x------   1 train    train        1169 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-site.xml
+1705745    4 -r-x------   1 train    train        1657 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-log4j.properties
+1705746    4 -r-x------   1 train    train        3323 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-metrics2.properties
+1705747    4 -r-x------   1 train    train        3999 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-env.cmd
+1705748    4 -r-x------   1 train    train        1551 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarn-site.xml
+1705749    4 -r-x------   1 train    train          10 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/workers
+1705750    4 -r-x------   1 train    train        1213 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/core-site.xml
+1705751    4 -r-x------   1 train    train        1747 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-log4j.properties
+1705752    4 -r-x------   1 train    train        2250 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarn-env.cmd
+1705753   12 -r-x------   1 train    train        8260 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/capacity-scheduler.xml
+1705754    4 -r-x------   1 train    train        3518 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-acls.xml
+1705755    4 -r-x------   1 train    train        1335 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/configuration.xsl
+1705756    8 -r-x------   1 train    train        6056 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/yarn-env.sh
+1705757    4 -r-x------   1 train    train        1092 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hdfs-site.xml
+1705758    4 -r-x------   1 train    train        1940 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/container-executor.cfg
+1705759    4 -r-x------   1 train    train        1764 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-env.sh
+1706272    4 -r-x------   1 train    train        2642 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/user_ec_policies.xml.template
+1706273    4 -r-x------   1 train    train        2326 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hive-site.xml
+1706274    4 -r-x------   1 train    train        3414 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-user-functions.sh.example
+1706275    4 -r-x------   1 train    train        2316 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/ssl-client.xml.example
+1706276    4 -r-x------   1 train    train        1351 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-env.sh
+1706277   12 -r-x------   1 train    train       11392 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/hadoop-policy.xml
+1706278    4 -r-x------   1 train    train        1484 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-env.sh
+1706279    4 -r-x------   1 train    train          21 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-signature.secret
+1706280    4 -r-x------   1 train    train         620 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/httpfs-site.xml
+1706281    4 -r-x------   1 train    train         951 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-env.cmd
+1706282    4 -r-x------   1 train    train        2697 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/ssl-server.xml.example
+1706283    4 -r-x------   1 train    train         682 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/kms-site.xml
+1706284    8 -r-x------   1 train    train        4113 Sep 15 22:00 ./__spark_conf__/__hadoop_conf__/mapred-queues.xml.template
+110786167  100 -r-x------   1 train    train       98735 Sep 15 22:00 ./__spark_conf__/__spark_hadoop_conf__.xml
+110786168    4 -r-x------   1 train    train         992 Sep 15 22:00 ./__spark_conf__/__spark_conf__.properties
+110786169    4 -r-x------   1 train    train         778 Sep 15 22:00 ./__spark_conf__/__spark_dist_cache__.properties
+39026228   44 -r-x------   1 train    train       41587 Sep 15 22:00 ./py4j-0.10.9-src.zip
+104149281   16 drwx------   2 train    train       12288 Sep 15 22:00 ./__spark_libs__
+104149285   28 -r-x------   1 train    train       27084 Sep 15 22:00 ./__spark_libs__/jackson-xc-1.9.13.jar
+104149286  144 -r-x------   1 train    train      143602 Sep 15 22:00 ./__spark_libs__/commons-digester-1.8.jar
+104149287   80 -r-x------   1 train    train       79912 Sep 15 22:00 ./__spark_libs__/api-util-1.0.0-M20.jar
+104149288   40 -r-x------   1 train    train       38352 Sep 15 22:00 ./__spark_libs__/hive-vector-code-gen-2.3.7.jar
+104149289 3152 -r-x------   1 train    train     3224708 Sep 15 22:00 ./__spark_libs__/derby-10.12.1.1.jar
+104149290  244 -r-x------   1 train    train      246918 Sep 15 22:00 ./__spark_libs__/commons-beanutils-1.9.4.jar
+104149291  324 -r-x------   1 train    train      328347 Sep 15 22:00 ./__spark_libs__/httpcore-4.4.12.jar
+104149292 1992 -r-x------   1 train    train     2039372 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-api-2.7.4.jar
+104149293 5156 -r-x------   1 train    train     5276900 Sep 15 22:00 ./__spark_libs__/scala-library-2.12.10.jar
+104149295  708 -r-x------   1 train    train      723203 Sep 15 22:00 ./__spark_libs__/parquet-format-2.4.0.jar
+104149296  404 -r-x------   1 train    train      410874 Sep 15 22:00 ./__spark_libs__/kryo-shaded-4.0.2.jar
+104149297 1356 -r-x------   1 train    train     1386397 Sep 15 22:00 ./__spark_libs__/xercesImpl-2.12.0.jar
+104149298   64 -r-x------   1 train    train       62050 Sep 15 22:00 ./__spark_libs__/commons-logging-1.1.3.jar
+104149299   88 -r-x------   1 train    train       88732 Sep 15 22:00 ./__spark_libs__/okio-1.15.0.jar
+104149300   72 -r-x------   1 train    train       71626 Sep 15 22:00 ./__spark_libs__/commons-compiler-3.0.16.jar
+104149301  200 -r-x------   1 train    train      201124 Sep 15 22:00 ./__spark_libs__/jdo-api-3.0.1.jar
+104149302   80 -r-x------   1 train    train       79588 Sep 15 22:00 ./__spark_libs__/spire-macros_2.12-0.17.0-M1.jar
+104149303  104 -r-x------   1 train    train      105777 Sep 15 22:00 ./__spark_libs__/arrow-memory-0.15.1.jar
+104149304  228 -r-x------   1 train    train      232470 Sep 15 22:00 ./__spark_libs__/JLargeArrays-1.5.jar
+104149305  100 -r-x------   1 train    train      100636 Sep 15 22:00 ./__spark_libs__/jsp-api-2.1.jar
+104149306   16 -r-x------   1 train    train       12488 Sep 15 22:00 ./__spark_libs__/logging-interceptor-3.12.6.jar
+104149307   96 -r-x------   1 train    train       95806 Sep 15 22:00 ./__spark_libs__/javax.servlet-api-3.1.0.jar
+104149308   20 -r-x------   1 train    train       16537 Sep 15 22:00 ./__spark_libs__/jcl-over-slf4j-1.7.30.jar
+104149309   44 -r-x------   1 train    train       43387 Sep 15 22:00 ./__spark_libs__/hive-cli-2.3.7.jar
+104149310   44 -r-x------   1 train    train       44925 Sep 15 22:00 ./__spark_libs__/apacheds-i18n-2.0.0-M15.jar
+104149311   96 -r-x------   1 train    train       94995 Sep 15 22:00 ./__spark_libs__/parquet-common-1.10.1.jar
+104149312   28 -r-x------   1 train    train       26514 Sep 15 22:00 ./__spark_libs__/stax-api-1.0.1.jar
+104149313   48 -r-x------   1 train    train       46646 Sep 15 22:00 ./__spark_libs__/jackson-dataformat-yaml-2.10.0.jar
+104149314 1144 -r-x------   1 train    train     1168113 Sep 15 22:00 ./__spark_libs__/algebra_2.12-2.0.0-M2.jar
+104149315 9168 -r-x------   1 train    train     9387724 Sep 15 22:00 ./__spark_libs__/spark-catalyst_2.12-3.0.0.jar
+104149316   44 -r-x------   1 train    train       41094 Sep 15 22:00 ./__spark_libs__/hadoop-annotations-2.7.4.jar
+104149317   64 -r-x------   1 train    train       65012 Sep 15 22:00 ./__spark_libs__/guice-servlet-3.0.jar
+104149318  760 -r-x------   1 train    train      775174 Sep 15 22:00 ./__spark_libs__/kubernetes-client-4.9.2.jar
+104149319   36 -r-x------   1 train    train       34601 Sep 15 22:00 ./__spark_libs__/spire-util_2.12-0.17.0-M1.jar
+104149320   44 -r-x------   1 train    train       44399 Sep 15 22:00 ./__spark_libs__/jakarta.activation-api-1.2.1.jar
+104149321  364 -r-x------   1 train    train      369562 Sep 15 22:00 ./__spark_libs__/spark-kubernetes_2.12-3.0.0.jar
+104149322  264 -r-x------   1 train    train      268780 Sep 15 22:00 ./__spark_libs__/jline-2.14.6.jar
+104149323 13504 -r-x------   1 train    train    13826799 Sep 15 22:00 ./__spark_libs__/breeze_2.12-1.0.jar
+104149324   24 -r-x------   1 train    train       23909 Sep 15 22:00 ./__spark_libs__/metrics-jvm-4.1.1.jar
+104149325   16 -r-x------   1 train    train       15935 Sep 15 22:00 ./__spark_libs__/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar
+104149326   36 -r-x------   1 train    train       33786 Sep 15 22:00 ./__spark_libs__/machinist_2.12-0.6.8.jar
+104149327 10424 -r-x------   1 train    train    10672015 Sep 15 22:00 ./__spark_libs__/scala-compiler-2.12.10.jar
+104149328   96 -r-x------   1 train    train       96221 Sep 15 22:00 ./__spark_libs__/commons-pool-1.5.4.jar
+104149329   64 -r-x------   1 train    train       64674 Sep 15 22:00 ./__spark_libs__/arrow-format-0.15.1.jar
+104149330   60 -r-x------   1 train    train       59866 Sep 15 22:00 ./__spark_libs__/spark-kvstore_2.12-3.0.0.jar
+104149331   16 -r-x------   1 train    train       15071 Sep 15 22:00 ./__spark_libs__/jta-1.1.jar
+104149332   28 -r-x------   1 train    train       27156 Sep 15 22:00 ./__spark_libs__/istack-commons-runtime-3.0.8.jar
+104149333   24 -r-x------   1 train    train       22042 Sep 15 22:00 ./__spark_libs__/metrics-graphite-4.1.1.jar
+104149334 8156 -r-x------   1 train    train     8350471 Sep 15 22:00 ./__spark_libs__/hadoop-hdfs-2.7.4.jar
+104149335  576 -r-x------   1 train    train      588337 Sep 15 22:00 ./__spark_libs__/commons-collections-3.2.2.jar
+104149336   20 -r-x------   1 train    train       20437 Sep 15 22:00 ./__spark_libs__/audience-annotations-0.5.0.jar
+104149337   12 -r-x------   1 train    train       12131 Sep 15 22:00 ./__spark_libs__/jpam-1.1.jar
+104149338   28 -r-x------   1 train    train       25058 Sep 15 22:00 ./__spark_libs__/jakarta.annotation-api-1.3.5.jar
+104149339 6952 -r-x------   1 train    train     7118845 Sep 15 22:00 ./__spark_libs__/spark-sql_2.12-3.0.0.jar
+104149340   16 -r-x------   1 train    train       15010 Sep 15 22:00 ./__spark_libs__/xmlenc-0.52.jar
+104149341   20 -r-x------   1 train    train       16560 Sep 15 22:00 ./__spark_libs__/api-asn1-api-1.0.0-M20.jar
+104149342  124 -r-x------   1 train    train      123052 Sep 15 22:00 ./__spark_libs__/py4j-0.10.9.jar
+104149343  760 -r-x------   1 train    train      776862 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-common-2.7.4.jar
+102325044   12 -r-x------   1 train    train        8261 Sep 15 22:00 ./__spark_libs__/spire-platform_2.12-0.17.0-M1.jar
+102325048 1524 -r-x------   1 train    train     1556863 Sep 15 22:00 ./__spark_libs__/avro-1.8.2.jar
+102325524   68 -r-x------   1 train    train       69500 Sep 15 22:00 ./__spark_libs__/curator-client-2.7.1.jar
+102325535  332 -r-x------   1 train    train      336803 Sep 15 22:00 ./__spark_libs__/antlr4-runtime-4.7.1.jar
+102447802    4 -r-x------   1 train    train        2497 Sep 15 22:00 ./__spark_libs__/javax.inject-1.jar
+102447803   84 -r-x------   1 train    train       85815 Sep 15 22:00 ./__spark_libs__/jersey-media-jaxb-2.30.jar
+102447804  496 -r-x------   1 train    train      503880 Sep 15 22:00 ./__spark_libs__/commons-lang3-3.9.jar
+102447805  436 -r-x------   1 train    train      443231 Sep 15 22:00 ./__spark_libs__/univocity-parsers-2.8.3.jar
+102447806  244 -r-x------   1 train    train      249790 Sep 15 22:00 ./__spark_libs__/javax.jdo-3.2.0-m3.jar
+102447807   96 -r-x------   1 train    train       94621 Sep 15 22:00 ./__spark_libs__/hadoop-auth-2.7.4.jar
+102447808  184 -r-x------   1 train    train      185140 Sep 15 22:00 ./__spark_libs__/commons-io-2.4.jar
+102447809   16 -r-x------   1 train    train       15149 Sep 15 22:00 ./__spark_libs__/spark-tags_2.12-3.0.0.jar
+102447810   56 -r-x------   1 train    train       54391 Sep 15 22:00 ./__spark_libs__/objenesis-2.5.1.jar
+102447811   36 -r-x------   1 train    train       34654 Sep 15 22:00 ./__spark_libs__/paranamer-2.8.jar
+102447812 3152 -r-x------   1 train    train     3226851 Sep 15 22:00 ./__spark_libs__/cats-kernel_2.12-2.0.0-M4.jar
+102447815   20 -r-x------   1 train    train       18497 Sep 15 22:00 ./__spark_libs__/flatbuffers-java-1.9.0.jar
+102447816  908 -r-x------   1 train    train      927721 Sep 15 22:00 ./__spark_libs__/jersey-server-2.30.jar
+102447817  176 -r-x------   1 train    train      178149 Sep 15 22:00 ./__spark_libs__/stream-2.9.6.jar
+102447818  360 -r-x------   1 train    train      366748 Sep 15 22:00 ./__spark_libs__/datanucleus-api-jdo-4.2.4.jar
+102447819  188 -r-x------   1 train    train      190432 Sep 15 22:00 ./__spark_libs__/gson-2.2.4.jar
+102447820  216 -r-x------   1 train    train      220536 Sep 15 22:00 ./__spark_libs__/xml-apis-1.4.01.jar
+102447821  676 -r-x------   1 train    train      691479 Sep 15 22:00 ./__spark_libs__/apacheds-kerberos-codec-2.0.0-M15.jar
+102447822   72 -r-x------   1 train    train       72050 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-shuffle-2.7.4.jar
+102447823  116 -r-x------   1 train    train      116311 Sep 15 22:00 ./__spark_libs__/hive-jdbc-2.3.7.jar
+102447824  680 -r-x------   1 train    train      692739 Sep 15 22:00 ./__spark_libs__/spark-hive_2.12-3.0.0.jar
+102447825 10588 -r-x------   1 train    train    10839104 Sep 15 22:00 ./__spark_libs__/hive-exec-2.3.7-core.jar
+102447826 2344 -r-x------   1 train    train     2397699 Sep 15 22:00 ./__spark_libs__/spark-network-common_2.12-3.0.0.jar
+102447827   20 -r-x------   1 train    train       19827 Sep 15 22:00 ./__spark_libs__/opencsv-2.3.jar
+102447828  184 -r-x------   1 train    train      187052 Sep 15 22:00 ./__spark_libs__/avro-mapred-1.8.2-hadoop2.jar
+102447829   36 -r-x------   1 train    train       33031 Sep 15 22:00 ./__spark_libs__/jsr305-3.0.0.jar
+102447830    4 -r-x------   1 train    train        3180 Sep 15 22:00 ./__spark_libs__/macro-compat_2.12-1.1.1.jar
+102447831  292 -r-x------   1 train    train      294928 Sep 15 22:00 ./__spark_libs__/spark-mesos_2.12-3.0.0.jar
+102447832  160 -r-x------   1 train    train      160519 Sep 15 22:00 ./__spark_libs__/commons-dbcp-1.4.jar
+102447833   72 -r-x------   1 train    train       73349 Sep 15 22:00 ./__spark_libs__/jersey-container-servlet-core-2.30.jar
+102447834  796 -r-x------   1 train    train      813783 Sep 15 22:00 ./__spark_libs__/orc-core-1.5.10.jar
+102447835  196 -r-x------   1 train    train      200223 Sep 15 22:00 ./__spark_libs__/hk2-api-2.6.1.jar
+102447836 1024 -r-x------   1 train    train     1048171 Sep 15 22:00 ./__spark_libs__/parquet-jackson-1.10.1.jar
+102447837 7172 -r-x------   1 train    train     7343426 Sep 15 22:00 ./__spark_libs__/mesos-1.4.0-shaded-protobuf.jar
+102447838 1112 -r-x------   1 train    train     1137816 Sep 15 22:00 ./__spark_libs__/spark-streaming_2.12-3.0.0.jar
+102447839   60 -r-x------   1 train    train       58684 Sep 15 22:00 ./__spark_libs__/chill-java-0.9.5.jar
+104593568  176 -r-x------   1 train    train      176285 Sep 15 22:00 ./__spark_libs__/automaton-1.11-8.jar
+104593569  280 -r-x------   1 train    train      284220 Sep 15 22:00 ./__spark_libs__/commons-lang-2.6.jar
+104593570   68 -r-x------   1 train    train       67889 Sep 15 22:00 ./__spark_libs__/jackson-annotations-2.10.0.jar
+104593571  132 -r-x------   1 train    train      131590 Sep 15 22:00 ./__spark_libs__/hk2-utils-2.6.1.jar
+104593572  384 -r-x------   1 train    train      392124 Sep 15 22:00 ./__spark_libs__/velocity-1.5.jar
+104593573 1444 -r-x------   1 train    train     1475955 Sep 15 22:00 ./__spark_libs__/htrace-core-3.1.0-incubating.jar
+104593574    8 -r-x------   1 train    train        4592 Sep 15 22:00 ./__spark_libs__/jul-to-slf4j-1.7.30.jar
+104593575 1152 -r-x------   1 train    train     1175798 Sep 15 22:00 ./__spark_libs__/JTransforms-3.1.jar
+104593576   84 -r-x------   1 train    train       83632 Sep 15 22:00 ./__spark_libs__/json4s-ast_2.12-3.6.6.jar
+104593577  240 -r-x------   1 train    train      244502 Sep 15 22:00 ./__spark_libs__/jersey-client-2.30.jar
+104593578  752 -r-x------   1 train    train      767140 Sep 15 22:00 ./__spark_libs__/httpclient-4.5.6.jar
+104593579 2032 -r-x------   1 train    train     2079585 Sep 15 22:00 ./__spark_libs__/spark-hive-thriftserver_2.12-3.0.0.jar
+104593580   20 -r-x------   1 train    train       18891 Sep 15 22:00 ./__spark_libs__/jetty-sslengine-6.1.26.jar
+104593581  424 -r-x------   1 train    train      430744 Sep 15 22:00 ./__spark_libs__/spark-graphx_2.12-3.0.0.jar
+104593582  324 -r-x------   1 train    train      330670 Sep 15 22:00 ./__spark_libs__/spark-yarn_2.12-3.0.0.jar
+104593583 7020 -r-x------   1 train    train     7188024 Sep 15 22:00 ./__spark_libs__/spire_2.12-0.17.0-M1.jar
+104593584   76 -r-x------   1 train    train       76733 Sep 15 22:00 ./__spark_libs__/jersey-hk2-2.30.jar
+104593585 1988 -r-x------   1 train    train     2035066 Sep 15 22:00 ./__spark_libs__/commons-math3-3.4.1.jar
+104593586  276 -r-x------   1 train    train      281356 Sep 15 22:00 ./__spark_libs__/xbean-asm7-shaded-4.15.jar
+104593587   92 -r-x------   1 train    train       91930 Sep 15 22:00 ./__spark_libs__/jakarta.validation-api-2.0.2.jar
+104593588  832 -r-x------   1 train    train      848750 Sep 15 22:00 ./__spark_libs__/parquet-encoding-1.10.1.jar
+104593589   12 -r-x------   1 train    train       12211 Sep 15 22:00 ./__spark_libs__/slf4j-log4j12-1.7.30.jar
+104593590  532 -r-x------   1 train    train      543852 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-app-2.7.4.jar
+104593591 5748 -r-x------   1 train    train     5885296 Sep 15 22:00 ./__spark_libs__/spark-mllib_2.12-3.0.0.jar
+104593592 4112 -r-x------   1 train    train     4210625 Sep 15 22:00 ./__spark_libs__/zstd-jni-1.4.4-3.jar
+104593593   44 -r-x------   1 train    train       41472 Sep 15 22:00 ./__spark_libs__/slf4j-api-1.7.30.jar
+104593594  360 -r-x------   1 train    train      365552 Sep 15 22:00 ./__spark_libs__/commons-compress-1.8.1.jar
+104593595   52 -r-x------   1 train    train       52512 Sep 15 22:00 ./__spark_libs__/spark-repl_2.12-3.0.0.jar
+104593596   56 -r-x------   1 train    train       54116 Sep 15 22:00 ./__spark_libs__/hive-shims-0.23-2.3.7.jar
+104593597 2140 -r-x------   1 train    train     2189117 Sep 15 22:00 ./__spark_libs__/guava-14.0.1.jar
+104593598   24 -r-x------   1 train    train       23346 Sep 15 22:00 ./__spark_libs__/stax-api-1.0-2.jar
+104593599   36 -r-x------   1 train    train       35518 Sep 15 22:00 ./__spark_libs__/zjsonpatch-0.3.0.jar
+104593600  232 -r-x------   1 train    train      234942 Sep 15 22:00 ./__spark_libs__/hive-storage-api-2.7.1.jar
+104593601 3168 -r-x------   1 train    train     3243337 Sep 15 22:00 ./__spark_libs__/shapeless_2.12-2.3.3.jar
+104593602    4 -r-x------   1 train    train        3954 Sep 15 22:00 ./__spark_libs__/kubernetes-model-common-4.9.2.jar
+104593603   64 -r-x------   1 train    train       65261 Sep 15 22:00 ./__spark_libs__/oro-2.0.8.jar
+104593604  164 -r-x------   1 train    train      166121 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-client-2.7.4.jar
+104593605  308 -r-x------   1 train    train      313702 Sep 15 22:00 ./__spark_libs__/libfb303-0.9.3.jar
+104593606  164 -r-x------   1 train    train      164422 Sep 15 22:00 ./__spark_libs__/core-1.1.2.jar
+104593607   32 -r-x------   1 train    train       32091 Sep 15 22:00 ./__spark_libs__/jersey-container-servlet-2.30.jar
+104593608 1864 -r-x------   1 train    train     1908681 Sep 15 22:00 ./__spark_libs__/datanucleus-rdbms-4.1.19.jar
+104593609   92 -r-x------   1 train    train       93210 Sep 15 22:00 ./__spark_libs__/super-csv-2.2.0.jar
+104593610   80 -r-x------   1 train    train       79845 Sep 15 22:00 ./__spark_libs__/compress-lzf-1.0.3.jar
+104593611  132 -r-x------   1 train    train      134595 Sep 15 22:00 ./__spark_libs__/commons-crypto-1.0.0.jar
+104593612   44 -r-x------   1 train    train       43740 Sep 15 22:00 ./__spark_libs__/jackson-module-paranamer-2.10.0.jar
+104593613    8 -r-x------   1 train    train        4467 Sep 15 22:00 ./__spark_libs__/aopalliance-1.0.jar
+104593614   20 -r-x------   1 train    train       19479 Sep 15 22:00 ./__spark_libs__/osgi-resource-locator-1.0.3.jar
+104593615   52 -r-x------   1 train    train       51181 Sep 15 22:00 ./__spark_libs__/spark-unsafe_2.12-3.0.0.jar
+104593616  336 -r-x------   1 train    train      341862 Sep 15 22:00 ./__spark_libs__/jackson-module-scala_2.12-2.10.0.jar
+104593617   12 -r-x------   1 train    train        8785 Sep 15 22:00 ./__spark_libs__/hive-shims-2.3.7.jar
+104593618  380 -r-x------   1 train    train      388572 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-server-common-2.7.4.jar
+104593619   28 -r-x------   1 train    train       25475 Sep 15 22:00 ./__spark_libs__/json-1.8.jar
+104593620  164 -r-x------   1 train    train      167761 Sep 15 22:00 ./__spark_libs__/antlr-runtime-3.5.2.jar
+104593621  232 -r-x------   1 train    train      233745 Sep 15 22:00 ./__spark_libs__/threeten-extra-1.5.0.jar
+104593622  528 -r-x------   1 train    train      539912 Sep 15 22:00 ./__spark_libs__/jetty-6.1.26.jar
+104593623   36 -r-x------   1 train    train       34991 Sep 15 22:00 ./__spark_libs__/jackson-module-jaxb-annotations-2.10.0.jar
+104593624 1140 -r-x------   1 train    train     1166647 Sep 15 22:00 ./__spark_libs__/jersey-common-2.30.jar
+104593625  132 -r-x------   1 train    train      134044 Sep 15 22:00 ./__spark_libs__/aircompressor-0.10.jar
+104593626  636 -r-x------   1 train    train      649950 Sep 15 22:00 ./__spark_libs__/lz4-java-1.7.1.jar
+104593627   28 -r-x------   1 train    train       26243 Sep 15 22:00 ./__spark_libs__/hadoop-client-2.7.4.jar
+104593628   68 -r-x------   1 train    train       69409 Sep 15 22:00 ./__spark_libs__/activation-1.1.1.jar
+104593629    4 -r-x------   1 train    train        4028 Sep 15 22:00 ./__spark_libs__/shims-0.7.45.jar
+104593630  244 -r-x------   1 train    train      246445 Sep 15 22:00 ./__spark_libs__/libthrift-0.12.0.jar
+104593631   48 -r-x------   1 train    train       48122 Sep 15 22:00 ./__spark_libs__/orc-mapreduce-1.5.10.jar
+110786080  136 -r-x------   1 train    train      136363 Sep 15 22:00 ./__spark_libs__/HikariCP-2.5.1.jar
+110786081   16 -r-x------   1 train    train       14395 Sep 15 22:00 ./__spark_libs__/generex-1.0.2.jar
+110786082  416 -r-x------   1 train    train      423175 Sep 15 22:00 ./__spark_libs__/okhttp-3.12.6.jar
+110786083 1892 -r-x------   1 train    train     1934320 Sep 15 22:00 ./__spark_libs__/snappy-java-1.1.7.5.jar
+110786084  132 -r-x------   1 train    train      134696 Sep 15 22:00 ./__spark_libs__/breeze-macros_2.12-1.0.jar
+110786085 1024 -r-x------   1 train    train     1045744 Sep 15 22:00 ./__spark_libs__/leveldbjni-all-1.8.jar
+110786086  992 -r-x------   1 train    train     1013367 Sep 15 22:00 ./__spark_libs__/jaxb-runtime-2.3.2.jar
+110786087  300 -r-x------   1 train    train      305001 Sep 15 22:00 ./__spark_libs__/commons-httpclient-3.1.jar
+110786088  228 -r-x------   1 train    train      232248 Sep 15 22:00 ./__spark_libs__/jackson-core-asl-1.9.13.jar
+110786089  544 -r-x------   1 train    train      556575 Sep 15 22:00 ./__spark_libs__/scala-xml_2.12-1.2.0.jar
+110786090  200 -r-x------   1 train    train      203358 Sep 15 22:00 ./__spark_libs__/hk2-locator-2.6.1.jar
+110786091 3420 -r-x------   1 train    train     3499224 Sep 15 22:00 ./__spark_libs__/hadoop-common-2.7.4.jar
+110786092  268 -r-x------   1 train    train      270342 Sep 15 22:00 ./__spark_libs__/curator-recipes-2.7.1.jar
+110786093  764 -r-x------   1 train    train      780664 Sep 15 22:00 ./__spark_libs__/jackson-mapper-asl-1.9.13.jar
+110786094  428 -r-x------   1 train    train      436980 Sep 15 22:00 ./__spark_libs__/hive-common-2.3.7.jar
+110786095  100 -r-x------   1 train    train       99555 Sep 15 22:00 ./__spark_libs__/xz-1.5.jar
+110786096  232 -r-x------   1 train    train      236660 Sep 15 22:00 ./__spark_libs__/ST4-4.0.4.jar
+110786097   16 -r-x------   1 train    train       12984 Sep 15 22:00 ./__spark_libs__/hive-shims-scheduler-2.3.7.jar
+110786098  280 -r-x------   1 train    train      285732 Sep 15 22:00 ./__spark_libs__/parquet-hadoop-1.10.1.jar
+110786099  208 -r-x------   1 train    train      211523 Sep 15 22:00 ./__spark_libs__/chill_2.12-0.9.5.jar
+110786100  292 -r-x------   1 train    train      298829 Sep 15 22:00 ./__spark_libs__/commons-configuration-1.6.jar
+110786101 1372 -r-x------   1 train    train     1400944 Sep 15 22:00 ./__spark_libs__/jackson-databind-2.10.0.jar
+110786102 3596 -r-x------   1 train    train     3678534 Sep 15 22:00 ./__spark_libs__/scala-reflect-2.12.10.jar
+110786103  628 -r-x------   1 train    train      643043 Sep 15 22:00 ./__spark_libs__/joda-time-2.10.5.jar
+110786104   88 -r-x------   1 train    train       87027 Sep 15 22:00 ./__spark_libs__/spark-network-shuffle_2.12-3.0.0.jar
+110786105    8 -r-x------   1 train    train        5711 Sep 15 22:00 ./__spark_libs__/minlog-1.3.0.jar
+110786106  140 -r-x------   1 train    train      140376 Sep 15 22:00 ./__spark_libs__/jakarta.ws.rs-api-2.1.6.jar
+110786107   28 -r-x------   1 train    train       27749 Sep 15 22:00 ./__spark_libs__/orc-shims-1.5.10.jar
+110786108   28 -r-x------   1 train    train       27006 Sep 15 22:00 ./__spark_libs__/aopalliance-repackaged-2.6.1.jar
+110786109  112 -r-x------   1 train    train      110600 Sep 15 22:00 ./__spark_libs__/bonecp-0.8.0.RELEASE.jar
+110786110  420 -r-x------   1 train    train      427780 Sep 15 22:00 ./__spark_libs__/jodd-core-3.5.2.jar
+110786111   60 -r-x------   1 train    train       58699 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-server-web-proxy-2.7.4.jar
+110786112  344 -r-x------   1 train    train      348635 Sep 15 22:00 ./__spark_libs__/jackson-core-2.10.0.jar
+110786113  524 -r-x------   1 train    train      533455 Sep 15 22:00 ./__spark_libs__/protobuf-java-2.5.0.jar
+110786114  268 -r-x------   1 train    train      273370 Sep 15 22:00 ./__spark_libs__/commons-net-3.1.jar
+110786115   64 -r-x------   1 train    train       62960 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-jobclient-2.7.4.jar
+110786116 1972 -r-x------   1 train    train     2016766 Sep 15 22:00 ./__spark_libs__/datanucleus-core-4.1.17.jar
+110786117   20 -r-x------   1 train    train       18336 Sep 15 22:00 ./__spark_libs__/jackson-jaxrs-1.9.13.jar
+110786118  908 -r-x------   1 train    train      926574 Sep 15 22:00 ./__spark_libs__/janino-3.0.16.jar
+110786119   32 -r-x------   1 train    train       30347 Sep 15 22:00 ./__spark_libs__/spark-sketch_2.12-3.0.0.jar
+110786120  120 -r-x------   1 train    train      120305 Sep 15 22:00 ./__spark_libs__/hive-shims-common-2.3.7.jar
+110786121  388 -r-x------   1 train    train      395195 Sep 15 22:00 ./__spark_libs__/javolution-5.5.1.jar
+110786122   16 -r-x------   1 train    train       15071 Sep 15 22:00 ./__spark_libs__/transaction-api-1.1.jar
+110786123  104 -r-x------   1 train    train      105898 Sep 15 22:00 ./__spark_libs__/jackson-datatype-jsr310-2.10.3.jar
+110786124  112 -r-x------   1 train    train      111914 Sep 15 22:00 ./__spark_libs__/spark-mllib-local_2.12-3.0.0.jar
+110786125  104 -r-x------   1 train    train      105134 Sep 15 22:00 ./__spark_libs__/jaxb-api-2.2.2.jar
+110786126   44 -r-x------   1 train    train       41123 Sep 15 22:00 ./__spark_libs__/commons-cli-1.2.jar
+110786127   20 -r-x------   1 train    train       18140 Sep 15 22:00 ./__spark_libs__/jakarta.inject-2.6.1.jar
+110786128   24 -r-x------   1 train    train       20889 Sep 15 22:00 ./__spark_libs__/metrics-jmx-4.1.1.jar
+110786129 1404 -r-x------   1 train    train     1437215 Sep 15 22:00 ./__spark_libs__/arrow-vector-0.15.1.jar
+110786130  116 -r-x------   1 train    train      115498 Sep 15 22:00 ./__spark_libs__/jakarta.xml.bind-api-2.3.2.jar
+110786131  280 -r-x------   1 train    train      284184 Sep 15 22:00 ./__spark_libs__/commons-codec-1.10.jar
+110786132 1644 -r-x------   1 train    train     1679789 Sep 15 22:00 ./__spark_libs__/hadoop-yarn-common-2.7.4.jar
+110786133  184 -r-x------   1 train    train      186273 Sep 15 22:00 ./__spark_libs__/curator-framework-2.7.1.jar
+110786134 1168 -r-x------   1 train    train     1194003 Sep 15 22:00 ./__spark_libs__/arpack_combined_all-0.1.jar
+110786135 8004 -r-x------   1 train    train     8194428 Sep 15 22:00 ./__spark_libs__/hive-metastore-2.3.7.jar
+110786136  180 -r-x------   1 train    train      183472 Sep 15 22:00 ./__spark_libs__/hive-beeline-2.3.7.jar
+110786137  104 -r-x------   1 train    train      105365 Sep 15 22:00 ./__spark_libs__/metrics-core-4.1.1.jar
+110786138  320 -r-x------   1 train    train      326419 Sep 15 22:00 ./__spark_libs__/hive-llap-common-2.3.7.jar
+110786139 4056 -r-x------   1 train    train     4153218 Sep 15 22:00 ./__spark_libs__/netty-all-4.1.47.Final.jar
+110786140  764 -r-x------   1 train    train      780265 Sep 15 22:00 ./__spark_libs__/javassist-3.25.0-GA.jar
+110786141  112 -r-x------   1 train    train      112235 Sep 15 22:00 ./__spark_libs__/scala-collection-compat_2.12-2.1.1.jar
+110786142 1076 -r-x------   1 train    train     1097799 Sep 15 22:00 ./__spark_libs__/parquet-column-1.10.1.jar
+110786143  176 -r-x------   1 train    train      177131 Sep 15 22:00 ./__spark_libs__/jetty-util-6.1.26.jar
+110786144 11632 -r-x------   1 train    train    11908731 Sep 15 22:00 ./__spark_libs__/kubernetes-model-4.9.2.jar
+110786145  132 -r-x------   1 train    train      132989 Sep 15 22:00 ./__spark_libs__/avro-ipc-1.8.2.jar
+110786146 9932 -r-x------   1 train    train    10167565 Sep 15 22:00 ./__spark_libs__/spark-core_2.12-3.0.0.jar
+110786147  696 -r-x------   1 train    train      710492 Sep 15 22:00 ./__spark_libs__/guice-3.0.jar
+110786148  196 -r-x------   1 train    train      197176 Sep 15 22:00 ./__spark_libs__/commons-text-1.6.jar
+110786149  344 -r-x------   1 train    train      349025 Sep 15 22:00 ./__spark_libs__/json4s-scalap_2.12-3.6.6.jar
+110786150   20 -r-x------   1 train    train       16642 Sep 15 22:00 ./__spark_libs__/metrics-json-4.1.1.jar
+110786151  296 -r-x------   1 train    train      302558 Sep 15 22:00 ./__spark_libs__/snakeyaml-1.24.jar
+110786152   36 -r-x------   1 train    train       36175 Sep 15 22:00 ./__spark_libs__/json4s-jackson_2.12-3.6.6.jar
+110786153 1256 -r-x------   1 train    train     1282424 Sep 15 22:00 ./__spark_libs__/ivy-2.4.0.jar
+110786154 1524 -r-x------   1 train    train     1558288 Sep 15 22:00 ./__spark_libs__/hadoop-mapreduce-client-core-2.7.4.jar
+110786155  472 -r-x------   1 train    train      482486 Sep 15 22:00 ./__spark_libs__/json4s-core_2.12-3.6.6.jar
+110786156   12 -r-x------   1 train    train        9478 Sep 15 22:00 ./__spark_libs__/spark-tags_2.12-3.0.0-tests.jar
+110786157  100 -r-x------   1 train    train      100431 Sep 15 22:00 ./__spark_libs__/pyrolite-4.30.jar
+110786158   76 -r-x------   1 train    train       75930 Sep 15 22:00 ./__spark_libs__/spark-launcher_2.12-3.0.0.jar
+110786159  480 -r-x------   1 train    train      489884 Sep 15 22:00 ./__spark_libs__/log4j-1.2.17.jar
+110786160  896 -r-x------   1 train    train      916206 Sep 15 22:00 ./__spark_libs__/hive-serde-2.3.7.jar
+110786161  220 -r-x------   1 train    train      222980 Sep 15 22:00 ./__spark_libs__/scala-parser-combinators_2.12-1.1.2.jar
+110786162  320 -r-x------   1 train    train      325335 Sep 15 22:00 ./__spark_libs__/RoaringBitmap-0.7.45.jar
+110786163  892 -r-x------   1 train    train      911603 Sep 15 22:00 ./__spark_libs__/zookeeper-3.4.14.jar
+110786164  912 -r-x------   1 train    train      932808 Sep 15 22:00 ./__spark_libs__/postgresql-42.2.14.jar
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
+End of LogType:directory.info.This log file belongs to a running container (container_1600195619400_0002_01_000001) and so may not be complete.
+*******************************************************************************
+
+
+End of LogType:prelaunch.err.This log file belongs to a running container (container_1600195619400_0002_01_000001) and so may not be complete.
+******************************************************************************
+
+
+End of LogType:stdout.This log file belongs to a running container (container_1600195619400_0002_01_000001) and so may not be complete.
+***********************************************************************
+
+
+Container: container_1600195619400_0002_01_000001 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:stderr
+LogLastModifiedTime:Tue Sep 15 22:00:28 +0300 2020
+LogLength:551
+LogContents:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/13/__spark_libs__7883486533655575952.zip/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/manual/hadoop-3.1.2/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+End of LogType:stderr.This log file belongs to a running container (container_1600195619400_0002_01_000001) and so may not be complete.
+***********************************************************************
+
+
+Container: container_1600195619400_0002_01_000001 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:prelaunch.out
+LogLastModifiedTime:Tue Sep 15 22:00:26 +0300 2020
+LogLength:100
+LogContents:
+Setting up env variables
+Setting up job resources
+Copying debugging information
+Launching container
+End of LogType:prelaunch.out.This log file belongs to a running container (container_1600195619400_0002_01_000001) and so may not be complete.
+******************************************************************************
+
+
+Container: container_1600195619400_0002_01_000001 on localhost:44803
+LogAggregationType: LOCAL
+====================================================================
+LogType:launch_container.sh
+LogLastModifiedTime:Tue Sep 15 22:00:26 +0300 2020
+LogLength:5421
+LogContents:
+#!/bin/bash
+
+set -o pipefail -e
+export PRELAUNCH_OUT="/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/prelaunch.out"
+exec >"${PRELAUNCH_OUT}"
+export PRELAUNCH_ERR="/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/prelaunch.err"
+exec 2>"${PRELAUNCH_ERR}"
+echo "Setting up env variables"
+export JAVA_HOME=${JAVA_HOME:-"/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-0.el7_8.x86_64/jre/"}
+export HADOOP_COMMON_HOME=${HADOOP_COMMON_HOME:-"/opt/manual/hadoop/"}
+export HADOOP_HDFS_HOME=${HADOOP_HDFS_HOME:-"/opt/manual/hadoop/"}
+export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/opt/manual/hadoop//etc/hadoop"}
+export HADOOP_YARN_HOME=${HADOOP_YARN_HOME:-"/opt/manual/hadoop/"}
+export HADOOP_HOME=${HADOOP_HOME:-"/opt/manual/hadoop/"}
+export PATH=${PATH:-"/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/train/.local/bin:/home/train/bin:$JAVA_HOME/bin:$KAFKA_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$HIVE_HOME/bin:$SQOOP_HOME/bin:$SPARK_HOME/bin:$MAVEN_HOME/bin:$INTELLIJ_HOME/bin:$PYCHARM_HOME/bin"}
+export LANG=${LANG:-"en_US.UTF-8"}
+export HADOOP_TOKEN_FILE_LOCATION="/tmp/hadoop-train/nm-local-dir/usercache/train/appcache/application_1600195619400_0002/container_1600195619400_0002_01_000001/container_tokens"
+export CONTAINER_ID="container_1600195619400_0002_01_000001"
+export NM_PORT="44803"
+export NM_HOST="localhost"
+export NM_HTTP_PORT="8042"
+export LOCAL_DIRS="/tmp/hadoop-train/nm-local-dir/usercache/train/appcache/application_1600195619400_0002"
+export LOCAL_USER_DIRS="/tmp/hadoop-train/nm-local-dir/usercache/train/"
+export LOG_DIRS="/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001"
+export USER="train"
+export LOGNAME="train"
+export HOME="/home/"
+export PWD="/tmp/hadoop-train/nm-local-dir/usercache/train/appcache/application_1600195619400_0002/container_1600195619400_0002_01_000001"
+export JVM_PID="$$"
+export MALLOC_ARENA_MAX="4"
+export NM_AUX_SERVICE_mapreduce_shuffle="AAA0+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+export SPARK_YARN_STAGING_DIR="hdfs://localhost:9000/user/train/.sparkStaging/application_1600195619400_0002"
+export PYTHONPATH="/opt/manual/spark//python/lib/py4j-0.10.9-src.zip:/opt/manual/spark//python/::$PWD/pyspark.zip:$PWD/py4j-0.10.9-src.zip"
+export APPLICATION_WEB_PROXY_BASE="/proxy/application_1600195619400_0002"
+export CLASSPATH="$PWD:$PWD/__spark_conf__:$PWD/__spark_libs__/*:$HADOOP_CONF_DIR:$HADOOP_COMMON_HOME/share/hadoop/common/*:$HADOOP_COMMON_HOME/share/hadoop/common/lib/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/lib/*:$HADOOP_YARN_HOME/share/hadoop/yarn/*:$HADOOP_YARN_HOME/share/hadoop/yarn/lib/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*:$PWD/__spark_conf__/__hadoop_conf__"
+export APP_SUBMIT_TIME_ENV="1600196421910"
+export SPARK_USER="train"
+echo "Setting up job resources"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/12/pyspark.zip" "pyspark.zip"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/14/__spark_conf__.zip" "__spark_conf__"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/15/py4j-0.10.9-src.zip" "py4j-0.10.9-src.zip"
+ln -sf -- "/tmp/hadoop-train/nm-local-dir/usercache/train/filecache/13/__spark_libs__7883486533655575952.zip" "__spark_libs__"
+echo "Copying debugging information"
+# Creating copy of launch script
+cp "launch_container.sh" "/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/launch_container.sh"
+chmod 640 "/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/launch_container.sh"
+# Determining directory contents
+echo "ls -l:" 1>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/directory.info"
+ls -l 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/directory.info"
+echo "find -L . -maxdepth 5 -ls:" 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/directory.info"
+find -L . -maxdepth 5 -ls 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/directory.info"
+echo "broken symlinks(find -L . -maxdepth 5 -type l -ls):" 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/directory.info"
+find -L . -maxdepth 5 -type l -ls 1>>"/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/directory.info"
+echo "Launching container"
+exec /bin/bash -c "$JAVA_HOME/bin/java -server -Xmx512m -Djava.io.tmpdir=$PWD/tmp -Dspark.yarn.app.container.log.dir=/opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001 org.apache.spark.deploy.yarn.ExecutorLauncher --arg '10.0.2.15:33073' --properties-file $PWD/__spark_conf__/__spark_conf__.properties --dist-cache-conf $PWD/__spark_conf__/__spark_dist_cache__.properties 1> /opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/stdout 2> /opt/manual/hadoop/logs/userlogs/application_1600195619400_0002/container_1600195619400_0002_01_000001/stderr"
+End of LogType:launch_container.sh.This log file belongs to a running container (container_1600195619400_0002_01_000001) and so may not be complete.
+************************************************************************************
+
+

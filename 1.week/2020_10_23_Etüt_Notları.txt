@@ -1,0 +1,33 @@
+Atilla -> root sudo ve 
+
+Sedat -> PATH 
+
+Yeşim -> yum 
+
+Mustafa -> GLOBAL ve LOCAL
+
+Berk -> Regular expression 
+
+Günce -> wget gitbash ile kendi ana makinemde çalışmadı?
+
+Utku Özkan -> 16. soru root yetkisi verme sahiplik
+
+Yeşim gitbash ile ssh kullanarak sanal makineye bağlanmak
+istediğimde connection refused hatası Çözüm: port forwarding on VM
+
+
+
+
+[train@localhost kurs-git]$ ls -l
+total 4
+-rw-rw-r--. 1 train train 25 Oct 18 18:22 myfile
+
+ownership: chown  -> train docker -> sahiplik 
+
+
+access rights: chmod -> - rw- rw- r-- -> erişim yetkileri
+
+
+chown root:root myfile 
+
+chmod 777 myfile 
