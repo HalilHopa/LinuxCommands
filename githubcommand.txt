@@ -1,0 +1,173 @@
+   50  mssql -u sa -p YourPassword123 
+   51  docker exec -it a8e416bb8b68de1ff40c0b9288179a4e32827b28c80c36cfdff7c025834d27a3 /bin/sh; exit
+   52  clear
+   53  pip install aws cli
+   54  pip install aws cli
+   55  aws --version
+   56  pip install aws cli
+   57  aws --version
+   58  clear
+   59  aws configure 
+   60  aws s3 ls
+   61  aws help
+   62  aws help
+   63  aws s3 ls s3://haliltest 
+   64  aws glacier create-vault --account-id - --vault-name egitimvault
+   65  dd if=/dev/urandom of=largefile bs=3145728 count=1
+   66  ls
+   67  ls -al
+   68  clear
+   69  split --bytes=1048576 --verbose largefile chunk
+   70  ls
+   71  split --bytes=1048576 --verbose largefile chunk
+   72  split --bytes=1048576 --verbose largefile chunk
+   73  split --bytes=1048576 --verbose largefile chunk
+   74  dd if=/dev/urandom of=largefile bs=3145728 count=1
+   75  split --bytes=1048576 --verbose largefile chunk
+   76  desktop
+   77  ls
+   78  Desktop
+   79  cd
+   80  cd /
+   81  : cd
+   82  : cd /
+   83  pwd
+   84  ls
+   85  home
+   86  cd desktop
+   87  cd Users
+   88  ls
+   89  cd testuser
+   90  ls
+   91  cd Desktop
+   92  ls
+   93  ls
+   94  cd ayti egitim
+   95  cd Ayti Egitim
+   96  ls Ayti Egitim
+   97  ls
+   98  cd Ayti_Egitim
+   99  cd Ayti_Egitim
+  100  open Ayti_Egitim
+  101  cd testuser
+  102  cd
+  103  pwd
+  104  cd testuser
+  105  ls
+  106  cd desktop
+  107  ls
+  108  cd Ayti_Egitim
+  109  ls
+  110  chmod 400 aytiegitim.pem
+  111  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  112  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  113  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  114  ls
+  115  chmod 400 aytiegitim.pem
+  116  ssh -i aytiegitim.pem  ec2-user@52.210.67.84
+  117  ls
+  118  cd desktop
+  119  ls
+  120  cd Ayti_Egitim
+  121  ls
+  122  chmod 400 aytiegitim.pem
+  123  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  124  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  125  ls
+  126  $ cat /etc/environment\nLANG=en_US.utf-8\nLC_ALL=en_US.utf-8
+  127  cat /etc/environment\nLANG=en_US.utf-8\nLC_ALL=en_US.utf-8
+  128  cat /etc/environment\nLANG=en_US.utf-8\nLC_ALL=en_US.utf-8
+  129  pwd
+  130  Terminal > Preferences > Select Terminal type such as Basic (default) > Advanced tab
+  131  pwd
+  132  ls
+  133  cd desktop
+  134  ls
+  135  cd Ayti_Egitim
+  136  ls
+  137  chmod 400 aytiegitim.pem
+  138  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  139  pwd
+  140  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  141  ls
+  142  cd desktop
+  143  ls
+  144  cd Ayti_Egitim
+  145  ls
+  146  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  147   chmod 400 aytiegitim.pem
+  148   ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  149  cd desktop
+  150  ls
+  151  cd Ayti_Egitim
+  152  ls
+  153  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  154  ls
+  155  cd desktop
+  156  ls
+  157  cd Ayti_Egitim
+  158  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  159  sudo pip install aws cli
+  160  sudo pip install aws cli
+  161  aws --version
+  162  aws configure
+  163  aws configure
+  164  aws s3 ls
+  165  â\M-\t â\M-\t â\M-\t â\M-\t
+  166  cd
+  167  ls
+  168  desktop
+  169  cd desktop
+  170  ls
+  171  cd Ayti_Egitim
+  172  ls
+  173  chmod 400 aytiegitim.pem
+  174  ssh -i aytiegitim.pem ec2-user@52.210.67.84
+  175   brew install git
+  176  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  177  $ brew install git
+  178  brew install git
+  179  brew install git
+  180  git
+  181  anaconda
+  182  git bash
+  183  ls
+  184  cd
+  185  pwd
+  186  cd Desktop
+  187  pwd
+  188  mkdir Gitrepo
+  189  ll
+  190  ls
+  191  cd gitrepo
+  192  git init
+  193  ls
+  194  ls -a
+  195  cd .
+  196  cd ..
+  197  cd git
+  198  cd Gitrepo
+  199  cd .git
+  200  ls
+  201  cd ..
+  202  touch deneme.txt
+  203  ls
+  204  git add .
+  205  git status
+  206  git commit -m "Deneme doyasi eklendi"
+  207  git log
+  208  git remote add origin https://github.com/HalilHopa/LinuxCommands.git
+  209  git remote
+  210  git push -u origin master
+  211  git push -u origin master
+  212  git push -u origin master
+  213  git push -u origin master
+  214  git clone https://github.com/MustafaBozkurt84/big_data_bootcamp_.git
+  215  git add .
+  216  git commit -m "Bigdata bootcamp"
+  217  git push origin master
+  218  git config
+  219  git config --global user.name HalilHopa
+  220  git config --global user.email halilhp@gmail.com
+  221  history > githubcommand.txt
+  222  history 
